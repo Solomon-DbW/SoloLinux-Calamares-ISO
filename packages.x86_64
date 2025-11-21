@@ -134,3 +134,4 @@ os-prober
 sddm
 lightdm
 networkmanager
+shadow
