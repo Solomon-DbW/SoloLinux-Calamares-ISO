@@ -1,0 +1,14 @@
+[Unit]
+Description=Calamares Installer
+After=graphical.target
+ConditionPathExists=/usr/bin/calamares
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/calamares -d
+Restart=no
+User=root
+
+[Install]
+WantedBy=graphical.target
+
